@@ -1,11 +1,11 @@
 object App extends  App{
   println("Welcome to OM car Dealership")
 
-val audi = new Car(new AudiCarFactory)
-audi.drive()
+  val audi = new Car(AudiCarFactory)
+  audi.drive()
 
   println()
-  val bmw = new Car(new BMWCarFactory)
+  val bmw = new Car(BMWCarFactory)
   bmw.drive()
 
 

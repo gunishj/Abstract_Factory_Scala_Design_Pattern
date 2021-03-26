@@ -1,4 +1,4 @@
-class AudiCarFactory extends  CarFactory {
+object AudiCarFactory extends  CarFactory {
   override def CreateBrand(): Brand = new AudiBrand
 
   override def CreateEngine(): Engine = new V6Engine
